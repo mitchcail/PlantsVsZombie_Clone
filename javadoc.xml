@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="private" author="true" classpath="/Applications/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar:/Applications/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:target/test-classes:/Users/john/.m2/repository/org/codehaus/jackson/jackson-lgpl/0.9.5/jackson-lgpl-0.9.5.jar:/Users/john/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/john/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/john/.m2/repository/junit/junit/4.11/junit-4.11.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="ca.carleton.sysc3110.project.models.shots,ca.carleton.sysc3110.project.views.swing,ca.carleton.sysc3110.project.models.zombies,ca.carleton.sysc3110.project.models.levels,ca.carleton.sysc3110.project,ca.carleton.sysc3110.project.views,ca.carleton.sysc3110.project.models,ca.carleton.sysc3110.project.views.text,ca.carleton.sysc3110.project.models.plants,ca.carleton.sysc3110.project.models.actions" source="1.7" sourcepath="src/test/java:src/test/resources:src/main/resources:src/main/java" splitindex="true" use="true" version="true">
+            <link href="http://junit-team.github.io/junit/javadoc/latest/"/>
+            <link href="jar:file:/Users/john/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1-javadoc.jar!/"/>
+        </javadoc>
+    </target>
+</project>

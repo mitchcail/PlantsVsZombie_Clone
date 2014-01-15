@@ -1,0 +1,23 @@
+GameWindow:	@param Level l a level to visually generate on the JFrame
+
+The GameWindow class acts as the GUI for program. There are three main components to this GUI: methods for initializing the board, methods for 
+dealing with interactions required by the controlling (such as setting the action listener for all of the buttons in the VIEW to go to the controller),
+and methods for dealing with whatever input comes through the update method. The methods for initialization the board dealing with creating and adding a 
+two dimensional array to a layeredPane and initialization a single dimension boolean array to determine how many rows are enabled on the given level. The
+initialization methods also generate the menubar that will be added to the game. The controller specific methods deal with things like providing the controller
+with information on the VIEW (if ever needed), refreshing the view (this should occur whenever a button is pressed, it will the buttons from overlapping
+labels above them because when a button is pressed it is re-prioritized to the top layer of the layeredPane), and setting the action listeners for the
+view to go to the controller, given a parameter ActionListener a. The update required methods deal with things like adding zombies, shot and plants visually
+to the board, removing these visual elements from the board, and moving shots and zombies across the board. 
+
+Operation: 	@param int on an integer used to control GUI operations
+			@param BoardElement e a board element that will be affected by the associated operation
+
+Operation is a data structure added for milestone 2. The purpose of the operation data structure is to act as the supplementary parameter
+for the update method in the view (aka GameWindow). The operation class contains two main variables: operationNumber which is the number
+controlling what operation it will be asking the view to do (0 = create, 1 = remove, 2 = move), and the second variable is the board element
+that will be affected by this operation. So an Operation containing (1, specificZombie) will remove a specific zombie from the view.
+
+
+
+ 

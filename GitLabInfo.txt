@@ -1,0 +1,6 @@
+TA INFO FOR GITLAB LOGIN
+
+http://gl.xnor.ca/carleton/sysc3110-project
+
+username: cata
+password: p@ssw0rd
